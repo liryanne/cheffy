@@ -24,7 +24,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Build" -a
+        git commit --message="Build" --all --allow-empty
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
