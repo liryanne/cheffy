@@ -1,6 +1,7 @@
 /node_modules
 /target
-/public/js
+cljs-runtime/
+manifest.edn
 .shadow-cljs
 .nrepl-port
 yarn.lock
